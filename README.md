@@ -2,18 +2,21 @@ Introduction
 --------------------------------------------------------
 This repository contains files relevant to the class project for the course - Getting & Cleaning Data.
 The files included are:
-1 - README.md #This file
-2 - run_analysis.R #The script used to create the tidy data set required for the project. Includes a funtion
-3 - Codebood.md #Describes the variables and the transformations done to get to the tidy dataset
-4 - tidy_data.fwf #Resulting tidy dataset, after the appropriate manipulations and transformations.  In fixed width format to make reading the data easier in a text editor
+1. README.md #This file
+2. run_analysis.R #The script used to create the tidy data set required for the project. Includes a funtion
+3. Codebood.md #Describes the variables and the transformations done to get to the tidy dataset
+4. tidy_data.fwf #Resulting tidy dataset, after the appropriate manipulations and transformations.  In fixed width format to make reading the data easier in a text editor
 5 - tidy_data.tsv #Resulting tidy dataset, after the appropriate manipulations and transformations.  In tab separated format to make loading into software easier.
 
 The purpose of this project is to clean, manipulate and transform data into a data set useful for a specific analysis.  The base data used in the project are activity data collected from a Samsung Galaxy S smartphone.  The data and associated descripition are available on the website that hosts the data here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 In this project we are required to create an R script called run_analysis.R that
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each observation.
+3. Uses descriptive activity names to name the activities in the data set.
 4. Appropriately labels the data set with descriptive variable names. 
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 The results are communicated via github, and include the following:
 1. A README.md file that describes the steps taken to create the tidy dataset required. 
