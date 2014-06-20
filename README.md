@@ -2,11 +2,12 @@ Introduction
 --------------------------------------------------------
 This repository contains files relevant to the class project for the course - Getting & Cleaning Data.
 The files included are:
-1. README.md #This file
-2. run_analysis.R #The script used to create the tidy data set required for the project. Includes a funtion
-3. Codebood.md #Describes the variables and the transformations done to get to the tidy dataset
-4. tidy_data.fwf #Resulting tidy dataset, after the appropriate manipulations and transformations.  In fixed width format to make reading the data easier in a text editor
-5 - tidy_data.tsv #Resulting tidy dataset, after the appropriate manipulations and transformations.  In tab separated format to make loading into software easier.
+
+1. README.md #This file  
+2. run_analysis.R #The script used to create the tidy data set required for the project. Includes a funtion  
+3. Codebook.md #Describes the variables and the transformations done to get to the tidy dataset  
+4. tidy_data.fwf #Resulting tidy dataset, after the appropriate manipulations and transformations.  In fixed width format to make reading the data easier in a text editor  
+5. tidy_data.tsv #Resulting tidy dataset, after the appropriate manipulations and transformations.  In tab separated format to make loading into software easier.  
 
 The purpose of this project is to clean, manipulate and transform data into a data set useful for a specific analysis.  The base data used in the project are activity data collected from a Samsung Galaxy S smartphone.  The data and associated descripition are available on the website that hosts the data here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
